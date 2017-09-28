@@ -1,0 +1,55 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\LipidProcessor\.metadata\.plugins\org.eclipse.core.resources\.projects\LipidProcessor\com.python.pydev.analysis\v2_indexcache
+LipidProcessorGUI|1506483251854055000|D:\LipidProcessor\LipidProcessor\LipidProcessorGUI.py
+LipidProcessor|1506504447467286000|D:\LipidProcessor\LipidProcessor\LipidProcessor.py
+Logger2|1506483472000780000|D:\LipidProcessor\LipidProcessor\Logger2.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+8=LipidFrame.selectISFile
+2=LipidProcessorGUI
+5=MyLogger
+1=LipidProcessor
+7=LipidFrame.selectInputFile
+10=LipidFrame.selectThresHoldFile
+4=LipidFrame
+6=LipidFrame.__init__
+3=Logger2
+9=MyLogger.__init__
+-- END DICTIONARY
+-- START TREE 1
+14
+con|1|convertToFloat!10@
+cre|1|createExcelFile!10@
+fil|1|fileHandler!11@
+get|3|getColumnDataStartWith!10@getColumnData!10@getCurrTime!18@
+isr|1|isRowInValid!10@
+lip|1|LipidFrame!17@
+loa|3|loadThresholdFile!10@loadISFile!10@loadTextFile!10@
+log|3|logger!11@logFileHandle!11@logFilename!11@
+mak|3|makeColumnDataSubstract!10@makeColumnDataAvg!10@makeColumnDataMax!10@
+myl|1|MyLogger!25@
+non|1|nonBlankLines!10@
+rea|1|readTextFile!10@
+run|3|runFilter!10@runLoggerTest!26@run_lipid_processor!18@
+wri|2|writeDataToColumn!10@writeDataToRow!10@
+-- END TREE
+-- START TREE 2
+15
+__i|2|__init__!4&18@__init__!5&26@
+bla|2|blankText!6&19@blankLabel!6&19@
+con|1|conditionFolder!6&19@
+cou|1|counter!6&19@
+get|1|getLogger!5&26@
+inp|4|inputFilename!6&19@inputFilename!7&19@inputFolderPath!6&19@inputDataBook!6&19@
+isf|3|isFolder!6&19@isFileName!8&19@isFolderPath!6&19@
+lab|2|labelFolder!6&19@labelImageFile!6&19@
+log|3|log_file_btn!6&19@logger!9&27@logger!6&19@
+out|5|outputDataBook!6&19@outputFolderPath!6&19@output_folder_btn!6&19@output_filename_label!6&19@output_filename_entry!6&19@
+run|1|run_thread!4&18@
+sel|4|selectOutputFolder!4&18@selectThresHoldFile!4&18@selectISFile!4&18@selectInputFile!4&18@
+sta|2|startProcessing!4&18@start_run_btn!6&19@
+tex|1|text_field!6&19@
+thr|2|thresHoldFileName!10&19@thresholdFolderPath!6&19@
+-- END TREE
